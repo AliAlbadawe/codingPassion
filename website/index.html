@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello World</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Normalize , google fonts and google icons files -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Start Header -->
+    <header class="header">
+      <div class="container">
+        <a href="#">
+          <span class="material-icons-outlined logo">
+            rocket_launch
+            </span>
+        </a>
+        <ul class="head-list">
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <span class="material-icons-outlined search"> search </span></li>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Slider Start -->
+    <div class="slider-container">
+      <div id="slide-number" class="slide-number"></div>
+      <img class="active" src="/website/images/1.jpg" alt="">
+      <img src="/website/images/2.jpg" alt="">
+      <img src="/website/images/3.jpg" alt="">
+      <img src="/website/images/4.jpg" alt="">
+      <img src="/website/images/5.jpg" alt="">
+    </div>
+    <div class="slide-controls">
+      <span id="prev" class="prev">Previous</span>
+      <span id="indicators" class="indicators"><ul id="ul" class="ul">
+        <!-- <li class="active">1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li> -->
+      </ul></span>
+      <span id="next" class="next">Next</span>
+    </div>
+    <!--TO DO LIST APP-->
+    <div class="app-container">
+    <div class="todo-container">
+      <div class="add-task">
+        <input type="text">
+        <span class="material-icons-outlined add-icon">
+          add_box
+          </span>
+      </div>
+      <div class="tasks-content">
+        <span class="no-tasks-message">No Tasks To Show</span>
+      </div>
+    </div>
+
+    <div class="task-stats">
+      <div class="tasks-count">
+        Tasks <span>0</span>
+      </div>
+      <div class="tasks-completed">
+        Completed <span>0</span>
+      </div>
+    </div>
+  </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
